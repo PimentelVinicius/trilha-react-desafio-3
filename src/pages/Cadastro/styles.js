@@ -13,7 +13,7 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 350px;
 `
 
 export const Column = styled.div`
@@ -79,11 +79,60 @@ export const CriarText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
+`
 
+export const TermoText = styled.p `
+    
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+
+`
+
+export const TextContainer = styled.p`
+
+    display: inline;
+
+`
+
+export const Textwhite =styled.span`
+
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+
+
+    color: white
+`
+    
+  
+  
+export const Linkgreen = styled.a`
+
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 19.07px;
+text-align: left;
+
+
+    color: #23DD7A;
+    text-decoration: none;
     &:hover {
     text-decoration: underline;
 
     cursor: pointer;
-`   
+  }
+
+
+
+`
+
+
+    
 
 
